@@ -1,0 +1,59 @@
+@import url('../styles/reset.css');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('../images/wall.png');
+  ound-repeat: repeat;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 90px;
+  width: 100%;
+  background-image: linear-gradient(#1b55e5, #0cac92);
+  color: #fff;
+  border-bottom: 5px solid #ffd700;
+}
+
+.menu-time h2:nth-child(1),
+.menu-score h2:nth-child(1) {
+  color: #e48282;
+  margin-bottom: 1rem;
+}
+
+.menu-lives {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu .menu-lives img {
+  height: 60px;
+}
+
+.panel {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.panel .panel-row {
+ cursor: pointer;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  background: #6db19a;
+}
+.enemy {
+  background-image: url('../images/ralph.png');
+  background-size: cover;
+}
